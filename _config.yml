@@ -4,10 +4,10 @@
 ## About Page: `hexo new page about`
 ## Tags Cloud Page: `hexo new page tags`
 menu:
-  博客首页: /Home
-  作品展示: /works
-  留言打卡: /about
-  前端导航: /FrontEndGuide
+#   博客首页: /Home
+#   作品展示: /works
+#   留言打卡: /about
+#   前端导航: /FrontEndGuide
 # 静心阅读: /tags
 # 光影之路: /instagram
 # 随笔: /tags/随笔
@@ -16,7 +16,7 @@ menu:
 avatar: img/head.jpg
 
 # Small icon of Your site | 站点小图标地址
-favicon: img/favicon.png
+favicon: img/head.png
 
 # Social info. Bar | 社交信息展示
 ## Keep "mailto:" in Email | 设置 Email 时保留 "mailto:"
@@ -24,8 +24,8 @@ favicon: img/favicon.png
 ## RSS requires a plugin to take effect | 使用 RSS 需先安装对应插件
 ## https://github.com/hexojs/hexo-generator-feed
 subnav:
-  mail: "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=PAkNDgsKBQ4MCnxNTRJfU1E"
-  github: "https://github.com/luuman"
+  # mail: "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=PAkNDgsKBQ4MCnxNTRJfU1E"
+  github: "https://github.com/lanboys1225"
   zhihu: "#"
   weibo: "#"
   google: "#"
@@ -48,22 +48,22 @@ subnav:
 
 disqus: 
   # on: true
-  shortname: luuman
+  shortname: lanboys1225
   # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
   # It is unnecessary to enable disqus here if 
   # you have set "disqus_shortname" in your site's "_config.yml" 
 
 duoshuo: 
   # on: true
-  domain: luuman
+  domain: lanboys1225
   # 是否开启多说评论，http://duoshuo.com/create-site/
   # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名前半部分
   # http://<要填的部分>.duoshuo.com (domain只填上<>里的内容，不要填整个网址)
 
 gitment:
   on: true
-  owner: luuman
-  repo: luuman.github.io
+  owner: lanboys1225
+  repo: lanboys1225.github.io
   client_id: 
   client_secret: 
 
@@ -130,7 +130,7 @@ tagcloud: true
 # Blogroll, Link exchange | 友情链接
 # friends: false
 friends:
-  name: http://luuman.github.io/
+  name: http://lanboys1225.github.io/
 
 # 打赏
 # 请在需要打赏的文章的md文件头部，设置属性reward: true
@@ -141,9 +141,9 @@ reward_type: 2
 reward_wording1: '纯属好玩'
 reward_wording2: '扫码打赏，你说多少就多少'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/img/alipay.jpg
-alipay: /img/alipay.png
+# alipay: /img/alipay.png
 # 微信二维码图片地址
-weixin: /img/weixin.png
+# weixin: /img/weixin.png
 
 #是否开启“关于我”。
 aboutme: 纯海迷、爱运动、爱交友、爱旅行、喜欢接触新鲜事物、迎接新的挑战，更爱游离于错综复杂的编码与逻辑中
@@ -154,7 +154,7 @@ aboutme: 纯海迷、爱运动、爱交友、爱旅行、喜欢接触新鲜事�
 open_in_new: false
 
 # Customize feed link 自定义订阅地址
-rss: /atom.xml
+# rss: /atom.xml
 
 
 # >>> Vendors | 第三方工具 & 服务 <<<
@@ -185,7 +185,7 @@ baidu_analytics:
 # http://ibruce.info/2015/04/04/busuanzi/
 visit_counter:
   on: true
-  site_visit: 海贼到访数
+  site_visit: 到访数
   page_visit: 本页阅读量
 
 # A标签提示
